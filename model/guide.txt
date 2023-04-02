@@ -1,0 +1,10 @@
+Line ke-1:
+  - Elemen ke-1: Banyaknya layer
+  - Elemen ke-2: Banyaknya node pada input layer
+  - Elemen ke-3 s.d. kedua dari terakhir: Banyaknya node pada hidden layer ke-n
+  - Elemen terakhir: Banyaknya node pada output layer
+
+Line ke-2 s.d dst: (Khusus node pada hidden dan output layer -- yang punya weight dan bias)
+  - Elemen ke-1 s.d ketiga dari terakhir: Weight dari node
+  - Elemen kedua dari terakhir: Bias dari node
+  - Elemen terakhir: Jenis activation function dari node
